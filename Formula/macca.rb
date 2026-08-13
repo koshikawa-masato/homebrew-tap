@@ -3,26 +3,26 @@
 class Macca < Formula
   desc "Local music library manager & player in your browser (no iTunes needed)"
   homepage "https://github.com/koshikawa-masato/macca"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.7/macca-darwin-arm64"
-      sha256 "461559891ac09820b5d633fd7ffd2e2752a1a231eb8582a9c108a30bda695577"
+      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.8/macca-darwin-arm64"
+      sha256 "676497d766c2a110ebdbab85d5e3adec761b18a3112e96884e200b87f79a2035"
     else
-      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.7/macca-darwin-amd64"
-      sha256 "a43a35f132bcab215b413ff8646e083efe5f60f316b1cc93d5f16e42a16832ab"
+      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.8/macca-darwin-amd64"
+      sha256 "0ebcb4b3ac85857770d0a086d755dac917665992513d4a47840a9e1f033907fd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.7/macca-linux-arm64"
-      sha256 "8efcf500d33c3c280349bff7b5fd469a8550be248e2d6005178d54abb4d0433b"
+      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.8/macca-linux-arm64"
+      sha256 "740d1a88a1558aeeeb507f7281c92f46c6c6571c14ee2dd516e2009aff32549f"
     else
-      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.7/macca-linux-amd64"
-      sha256 "0f7781162a7c53ac8dfddb54cf871b8b3d0fe36d70c3e9f0c3053d7e0986d06f"
+      url "https://github.com/koshikawa-masato/macca/releases/download/v0.1.8/macca-linux-amd64"
+      sha256 "9c247664f9bde8f4fcd6f86c59a1969bcca0fa43e41e75c4e5923f21a4bea05c"
     end
   end
 
